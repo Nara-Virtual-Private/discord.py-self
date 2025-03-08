@@ -80,11 +80,11 @@ dev = [
 
 [tool.setuptools]
 packages = [
-    "discord",
-    "discord.types",
-    "discord.webhook",
-    "discord.ext.commands",
-    "discord.ext.tasks",
+    "discord_self",
+    "discord_self.types",
+    "discord_self.webhook",
+    "discord_self.ext.commands",
+    "discord_self.ext.tasks",
 ]
 include-package-data = true
 
@@ -114,11 +114,11 @@ line_length = 125
 
 [tool.pyright]
 include = [
-    "discord",
-    "discord/types",
-    "discord/ext",
-    "discord/ext/commands",
-    "discord/ext/tasks",
+    "discord_self",
+    "discord_self/types",
+    "discord_self/ext",
+    "discord_self/ext/commands",
+    "discord_self/ext/tasks",
 ]
 exclude = [
     "**/__pycache__",
